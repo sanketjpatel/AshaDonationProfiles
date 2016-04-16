@@ -1,2 +1,18 @@
 # AshaDonationProfiles
-Wordpress plugin for Asha Donations
+Wordpress plugin for Asha Donations.
+
+This plugin allows to create a custom wordpress post, called Donation Profile.
+Like a regular post a Asha chapter coordinator can add standard content - text, image, video to create
+an engaging narrative. In addition to that, it accepts
+* a target donation amount
+* a channel id
+* a project id
+* a chapter id
+
+The result is
+![Demo](http://i.giphy.com/xT1XGzoMZiruolCUVO.gif)
+
+This shows all the profiles which are actively raising funds for a cause with realtime tracking of how close to the target they are.
+
+Currently, this plugin is being used for Chicago Bank of America Marathon.
+However, it can be used for all donation campaigns.
