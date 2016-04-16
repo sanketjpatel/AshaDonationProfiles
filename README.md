@@ -9,7 +9,8 @@ an engaging narrative. In addition to that, it accepts
 * a project id
 * a chapter id
 
-The result is
+Here is the end result that the user gets to see
+
 ![Demo](http://i.giphy.com/xT1XGzoMZiruolCUVO.gif)
 
 This shows all the profiles which are actively raising funds for a cause with realtime tracking of how close to the target they are.
