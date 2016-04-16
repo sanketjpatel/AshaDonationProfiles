@@ -9,6 +9,8 @@ an engaging narrative. In addition to that, it accepts
 * a project id
 * a chapter id
 
+![Demo](http://i.giphy.com/26AHMRo9zGciJ1j0I.gif)
+
 Here is the end result that the user gets to see
 
 ![Demo](http://i.giphy.com/xT1XGzoMZiruolCUVO.gif)
@@ -17,3 +19,7 @@ This shows all the profiles which are actively raising funds for a cause with re
 
 Currently, this plugin is being used for Chicago Bank of America Marathon.
 However, it can be used for all donation campaigns.
+
+# TODO
+* Change slug
+* Social share buttons
