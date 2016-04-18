@@ -9,11 +9,11 @@ an engaging narrative. In addition to that, it accepts
 * a project id
 * a chapter id
 
-![Demo](http://i.giphy.com/26AHMRo9zGciJ1j0I.gif)
+![Demo](http://i.giphy.com/26AHMRo9zGciJ1j0I.gif =400x300)
 
 Here is the end result that the user gets to see
 
-![Demo](http://i.giphy.com/xT1XGzoMZiruolCUVO.gif)
+![Demo](http://i.giphy.com/xT1XGzoMZiruolCUVO.gif =400x300)
 
 This shows all the profiles which are actively raising funds for a cause with realtime tracking of how close to the target they are.
 
