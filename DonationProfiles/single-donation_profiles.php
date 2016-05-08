@@ -25,6 +25,7 @@
               $chapter=get_post_meta( get_the_ID(), 'chapter', true );
               $project=get_post_meta( get_the_ID(), 'project', true );
               $target=get_post_meta( get_the_ID(), 'target', true); 
+              
               $target=isset($target)?$target:1000; 		      
               $donation_url = "https://donate.ashanet.org/donate-new/?e=" . $event . "&l=" . $channel . "&c=" . $chapter . "&p=" . $project;
               
@@ -37,7 +38,9 @@
 		  
                 <div class="mdl-card__supporting-text mdl-color-text--grey-600">
 		<div class="mdl-card__actions">
-		<div class="mdl-cell mdl-cell--10-col"><span style="color: red; font-weight:bold;"><?php echo ($target); ?></span> USD Target</div>                    
+		<?php if ( isset($target) && !empty($target) ): ?>
+		   <div class="mdl-cell mdl-cell--10-col"><span style="color: red; font-weight:bold;"><?php echo ($target); ?></span> USD Target</div> 
+		<?php endif; ?>   
 		<div class="mdl-cell mdl-cell--10-col"><span style="color: red; font-weight:bold;"><?php echo sprintf("%' 4d\n", intval( $total )); ?></span> USD Raised </div>
                     <div class="mdl-cell mdl-cell--10-col"><span style="color: red; font-weight:bold;"><?php echo( $response['count']); ?></span> Supporters </div>
                 </div>
