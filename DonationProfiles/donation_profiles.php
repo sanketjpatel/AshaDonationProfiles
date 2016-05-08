@@ -107,8 +107,8 @@ function add_donation_profile_fields( $post_id = false, $post = false ) {
     if ( isset( $_POST['event'] ) && $_POST['event'] != '' ) {
       update_post_meta( $post_id, 'event', $_POST['event'] );
     }
-    if ( isset( $_POST['chapter'] ) && $_POST['chapter'] != '' ) {
-      update_post_meta( $post_id, 'chapter', $_POST['chapter'] );
+    if ( isset( $_POST['project'] ) && $_POST['project'] != '' ) {
+      update_post_meta( $post_id, 'chapter', $_POST['project'] );
     }
     if ( isset( $_POST['target'] ) && $_POST['target'] != '') {
       update_post_meta( $post_id, 'target', $_POST['target'] );

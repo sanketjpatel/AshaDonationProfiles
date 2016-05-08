@@ -42,7 +42,7 @@
                     <div class="mdl-cell mdl-cell--10-col"><span style="color: red; font-weight:bold;"><?php echo( $response['count']); ?></span> Supporters </div>
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
-                  <a href="<?php echo $donation_url; ?>" class="mdl-button mdl-js-button mdl-js-ripple-effect">Support <?php the_title(); ?></a>
+                  <a href="<?php echo $donation_url; ?>" class="mdl-button mdl-js-button mdl-js-ripple-effect">Donate Now</a>
                 </div>
               </div>
               <div class="demo-separator mdl-cell--1-col"></div>
