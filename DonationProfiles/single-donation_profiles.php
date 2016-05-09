@@ -38,9 +38,11 @@
 		  
                 <div class="mdl-card__supporting-text mdl-color-text--grey-600">
 		<div class="mdl-card__actions">
-		<?php if ( isset($target) && !empty($target) ): ?>
+		<?php if ( isset($target) && !empty($target) && $target!='0' ) { ?>
 		   <div class="mdl-cell mdl-cell--10-col"><span style="color: red; font-weight:bold;"><?php echo ($target); ?></span> USD Target</div> 
-		<?php endif; ?>   
+		<?php } else { ?>
+		   <div class="mdl-cell mdl-cell--10-col">&nbsp;</div>   
+		<?php } ?>   
 		<div class="mdl-cell mdl-cell--10-col"><span style="color: red; font-weight:bold;"><?php echo sprintf("%' 4d\n", intval( $total )); ?></span> USD Raised </div>
                     <div class="mdl-cell mdl-cell--10-col"><span style="color: red; font-weight:bold;"><?php echo( $response['count']); ?></span> Supporters </div>
                 </div>
